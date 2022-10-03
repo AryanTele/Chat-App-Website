@@ -23,13 +23,14 @@ span {
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     padding: 30px 10%;
 }
 
 .logo {
     cursor: pointer;
+    margin-right: auto;
 }
 
 .nav-links li {
