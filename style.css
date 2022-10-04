@@ -60,3 +60,16 @@ button:hover {
     background-color: rgba(196, 136, 255, 0.6);
     color: #f8f8ff;
 }
+
+/* Main Section*/
+
+
+.text-container h1{
+    /* background-color: red; */
+    font-size: 76px;
+    font-weight: 500;
+    position: absolute;
+    top: 25%;
+    left: 9.7%;
+    line-height: 1.5;
+}
