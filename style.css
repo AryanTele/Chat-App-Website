@@ -4,10 +4,11 @@
     padding: 0;
     box-sizing: border-box;
     background-color: #000000;
+    font-family: "Poppins", sans-serif;
 }
 
 h1, li, a, button {
-    font-family: "Poppins", sans-serif;
+    
     text-decoration: none;
     font-weight: 300;
     color: aliceblue;
@@ -62,14 +63,45 @@ button:hover {
 }
 
 /* Main Section*/
-
-
-.text-container h1{
+.container {
     /* background-color: red; */
+    width: 100%;
+    height: 85vh;
+    position: relative;
+    
+}
+
+.text-container {
+    position: absolute;
+    top: 15%;
+    left: 9.7%;
+}
+
+.text-container h1 {
     font-size: 76px;
     font-weight: 500;
-    position: absolute;
-    top: 25%;
-    left: 9.7%;
-    line-height: 1.5;
+    line-height: 1.3;
+}
+.text-container p {
+    color: white;
+    font-size: 23px;
+    margin-top: 10px;
+}
+
+.btn-normal, .btn-ghost {
+    margin-top: 35px;
+    padding: 10px 25px;
+    font-size: 20px;
+    letter-spacing: -1px;
+}
+
+.btn-normal {
+    background-color: #C488ff;
+    margin-right: 10px;
+    padding: 13px 33px;
+}
+
+.btn-ghost {
+    background-color: transparent;
+    border: 3px solid #C488ff;
 }
