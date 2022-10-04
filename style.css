@@ -105,3 +105,11 @@ button:hover {
     background-color: transparent;
     border: 3px solid #C488ff;
 }
+
+.svg-container {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 5%;
+}
