@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap');
+/*             Global Properties       */
+
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +15,7 @@ h1, li, a, button {
     font-weight: 300;
     color: aliceblue;
 }
-
+/*             Navbar Section       */
 span {
     font-weight: 700;
 }
@@ -21,6 +23,7 @@ span {
     color: #C488ff;
     font-weight: 300;
 }
+
 
 header {
     display: flex;
@@ -129,6 +132,7 @@ button:hover {
     left: 9.5%;
 }
 
+/*             Markup Section       */
 .markup-container {
     margin-top: 100px;
     width: 100%;
