@@ -152,3 +152,10 @@ button:hover {
     margin: 10px 250px;
     font-weight: 400;
 }
+
+
+.markup-container img {
+    width: 800px;
+    margin: 40px auto 20px;
+    display: block;
+}
