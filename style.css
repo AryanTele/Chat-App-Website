@@ -134,11 +134,12 @@ button:hover {
 
 /*             Markup Section       */
 .markup-container {
-    margin-top: 100px;
+    margin-top: 80px;
     width: 100%;
     height: 100vh;
     background-color: white;
     position: relative;
+
 }
 
 .markup-container h1 {
@@ -149,13 +150,37 @@ button:hover {
 }
 .markup-container p {
     text-align: center;
-    margin: 10px 250px;
+    margin: 20px 250px;
     font-weight: 400;
 }
 
 
 .markup-container img {
     width: 800px;
-    margin: 40px auto 20px;
+    margin: 60px auto 20px;
     display: block;
+}
+
+
+
+.markup-container #avail {
+    margin-top: 60px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #2B363F;
+}
+.icon-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 60%;
+    margin: -50px auto;
+
+}
+
+
+
+.icon-container img {
+    width: 150px;
+    height: 150px;
+    
 }
