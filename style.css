@@ -239,3 +239,66 @@ button:hover {
 .star-container .bold-text {
     font-weight: 500;
 }
+
+/* Footer Section */
+
+footer {
+    width: 100%;
+    height: 40vh;
+
+}
+.footer-one {
+    display: flex;
+    justify-content: space-around;
+}
+.logo-container {
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.logo-bold {
+    color: #72588C;
+}
+.logo-container p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.13;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.help-container {
+    margin-top: 50px;
+}
+.help-container p {
+    color: rgba(0, 0, 0, 0.67);
+    font-size: 20px;
+}
+.help-container ul{
+    list-style-type: none;
+}
+
+.help-container li {
+    margin-top: 10px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 16px;
+
+}
+.terms-container { 
+    margin-top: 20px;
+}
+
+.copy-container {
+    float: left;
+    margin-left: 110px;
+}
+.link-container {
+    margin-left: 400px;
+}
+
+.link-container a {
+
+    padding: 20px;
+    color: rgba(0, 0, 0, 0.67);
+}
+
